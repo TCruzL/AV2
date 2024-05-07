@@ -1,0 +1,229 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.topo{
+    background-image: url(/img/Life_cidades.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+
+nav a:hover{
+    color: gold;
+    transition: 0.5s;
+}
+
+
+h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    opacity: 60%;
+    margin-top: 0px;
+}
+
+
+button{
+    background-color: gold;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: transparent;
+    font-size: 20px;
+    color: seashell;
+    text-decoration: none;
+}
+
+
+button:hover{
+    background-color: rgb(193, 141, 241);
+    transition: 0.35s;
+    cursor: pointer;
+}
+
+
+.search{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: transparent;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    color:  #767F86;
+    width: 50%;
+}
+
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.texto{
+    width: 25%;
+}
+
+
+.sobre hr{
+    color: gold;
+}
+
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 0%;
+}
+
+
+.foto{
+    border: solid 1px;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+    border-style:groove ;
+}
+
+
+.onde{
+    text-align: center;
+    background-color: #BDACFF;
+}
+
+
+.cardfoto{
+    text-align: left;
+    border: solid 1px;
+    padding: 15px;
+    margin: 10px;
+    background-color: snow;
+    width: 400px;
+    height: 590px;
+    border-radius: 7px;
+    border-style: groove;
+    color: #3C4852;
+}
+
+
+.cardfoto span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+
+.l1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.custo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+.ava{
+    align-items: center;
+    text-align: center;
+}
+
+
+.ava p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+footer{
+    background-color: #3C4852;
+    display: flex;
+    color: #B8C0C7;
+    font-size: 15px;
+}
+
+
+.cl{
+    width: 33.3%;
+    padding: 10px;
+    text-align: left;
+}
+
+
+h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+
+h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747DFF;
+    font-size: 35px;
+}
+
+
+h5{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px; 
+}
+
+
+h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.cliet span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-right: 5px;
+    font-size: 18px;
+}
